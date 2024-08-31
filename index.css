@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 600px; 
+    margin: 0 auto; 
+    
+}
+
+.column h3 {
+    font-size: 24px;
+    color: #9AABD8;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #1B244A;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #F94F6D;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #D83C57;
+}
+
+.reset-container {
+    margin-top: 20px;
+}
+
+.reset-container button {
+    background-color: #F94F6D;
+    color: white;
+    font-weight: bold;
+}
+
+.reset-container button:hover {
+    background-color: #D83C57;
+}
